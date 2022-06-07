@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, sans-serif;
+}
+
+.my-primary {
+	background-color: rgb(91, 148, 237);
+}
+
+* {
+	box-sizing: border-box;
+	font-family: inherit;
+}
+
+.text-nav {
+	font-size: 1.15rem;
+}
+
+.text-user {
+	font-size: 0.85rem;
+}
+
+.text-post {
+	letter-spacing: 0.5px;
+}
+
+.text-test {
+	font-size: 100%;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.text-nav {
+		font-size: 1.25rem;
+	}
+
+	.text-user {
+		font-size: 1.1rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.text-nav {
+		font-size: 1.5rem;
+	}
+
+	.text-user {
+		font-size: 1.125rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.text-nav {
+		font-size: 1.7rem;
+	}
+
+	.text-user {
+		font-size: 1.225rem;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.text-nav {
+		font-size: 2rem;
+	}
+
+	.text-user {
+		font-size: 1.25rem;
+	}
+}
+
+.cursorPointer {
+	cursor: pointer;
+}
+
+.customPagination a {
+	border: none;
+}
+
+.customPagination.actv a {
+	border-bottom: 2px solid #0d6efd;
+}
+
+.border-primary .popover-arrow::before {
+	border-bottom-color: #0d6efd !important;
+}
